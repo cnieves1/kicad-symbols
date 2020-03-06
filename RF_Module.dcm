@@ -120,6 +120,12 @@ K RFID UHF Jadak Thingmagic
 F https://www.jadaktech.com/resources/rfid-document-library/thingmagic-micro-uhf-rain-rfid-module-user-guide/?download
 $ENDCMP
 #
+$CMP Jadak_Thingmagic_M6e-Nano
+D RFID UHF module, 1 antenna port, 27dBm, edge pin connections
+K RFID UHF Jadak Thingmagic M6e Nano
+F https://www.jadaktech.com/resources/rfid-document-library/thingmagic-nano-uhf-rain-rfid-module-user-guide/?download
+$ENDCMP
+#
 $CMP MM002
 D NEMEUS Modem dual-mode LoRa/SIGFOX
 K IOT LoRa SIGFOX
