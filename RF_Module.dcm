@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AX-SIP-SFEU
+D Ultra low power, Sigfox or custom, system in package transceiver, 868Mhz
+K Sigfox SIP 868Mhz
+F https://www.onsemi.com/pub/Collateral/AX-SIP-SFEU-D.PDF
+$ENDCMP
+#
+$CMP AX-SIP-SFEU-API
+D Ultra low power, Sigfox or custom, programmable system in package, 868Mhz
+K Sigfox SIP 868Mhz
+F https://www.onsemi.com/pub/Collateral/AX-SIP-SFEU-D.PDF
+$ENDCMP
+#
 $CMP Ai-Thinker-Ra-01
 D Ai-Thinker LoRa Module Ra-01
 K Ra-01 LoRa
@@ -126,10 +138,16 @@ K RF Radio BT ESP ESP32 Espressif external U.FL antenna
 F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf
 $ENDCMP
 #
-$CMP Jadak_Thingmagic_M6e-Micro_edge_pins
-D RFID UHF module, 2 antenna port, 30dBm, edge pin connections
-K RFID UHF Jadak Thingmagic
-F https://www.jadaktech.com/resources/rfid-document-library/thingmagic-micro-uhf-rain-rfid-module-user-guide/?download
+$CMP M6e-M
+D RFID UHF module, 2 antenna port, 30dBm, 750tags/s, edge pin connections
+K RFID UHF Jadak Thingmagic M6e
+F https://www.mouser.com/pdfDocs/TM_Micro_Micro-LTE-UG-Rev-06292018.pdf
+$ENDCMP
+#
+$CMP M6e-MICRO
+D RFID UHF module, 2 antenna port, 30dBm, Micro-LTE version, 50tags/s, edge pin connections
+K RFID UHF Jadak Thingmagic M6e
+F https://www.mouser.com/pdfDocs/TM_Micro_Micro-LTE-UG-Rev-06292018.pdf
 $ENDCMP
 #
 $CMP Jadak_Thingmagic_M6e-Nano
