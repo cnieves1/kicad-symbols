@@ -16,6 +16,7 @@ $CMP AX-SIP-SFEU-API
 D Ultra low power, Sigfox or custom, programmable system in package, 868Mhz
 K Sigfox SIP 868Mhz
 F https://www.onsemi.com/pub/Collateral/AX-SIP-SFEU-D.PDF
+$ENDCMP
 #
 $CMP Ai-Thinker-Ra-01
 D Ai-Thinker Ra-01 410-525 MHz LoRa Module, SPI interface, external antenna
